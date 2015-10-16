@@ -21,3 +21,54 @@ html {
 	display: block;
 }
 
+body {
+	margin: 0em;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center
+}
+
+header {
+	background-color: #ccc;
+	margin: 0em;
+}
+
+nav {
+	margin: 1em;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #0680e5;
+}
+
+@media only screen and (min-width: 25em) {
+
+	nav li {
+		display: inline-block;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+	h1 {
+		text-align: left;
+	}
+
+	nav {
+		text-align: left;
+		margin: 0em;
+	}
+
+}
