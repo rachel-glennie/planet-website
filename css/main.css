@@ -27,8 +27,8 @@ body {
 	margin: 0em;
 }
 
-h1 {
-	text-align: center
+h1, h3 {
+	text-align: center;
 }
 
 header {
@@ -58,7 +58,7 @@ nav a {
 
 @media only screen and (min-width: 38em) {
 
-	h1, nav {
+	h1, h3, nav {
 		text-align: left;
 	}
 
