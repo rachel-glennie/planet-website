@@ -27,26 +27,46 @@ body {
 	margin: 0em;
 }
 
-h1, h3 {
+h3 {
 	text-align: center;
 }
+
 
 header {
 	background-color: #ccc;
 }
 
-nav li {
+ol {
 	list-style: none;
+	padding: 0em;
 }
 
-nav a {
+ol a {
 	text-decoration: none;
 	color: #0680e5;
 }
 
+nav a:hover {
+	background-color: #1579db;
+	color: white;
+}
+
+.headline {
+	background-color: #e2e2e2;
+	text-align: center;
+}
+
+.headline h2 {
+	font-weight: normal;
+}
+
+footer {
+	background-color: #cbcbcb;
+}
+
 @media only screen and (min-width: 25em) {
 
-	nav li {
+	ol li {
 		display: inline-block;
 	}
 
@@ -58,8 +78,12 @@ nav a {
 
 @media only screen and (min-width: 38em) {
 
-	h1, h3, nav {
+	h3, nav {
 		text-align: left;
 	}
+
+.headline {
+	text-align: center;
+}
 
 }
