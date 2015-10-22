@@ -12,20 +12,29 @@
 <body>
 
 	<header class="grid grid-middle">
-		<h1 class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">Venus</h1>
+		<h3 class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">Venus</h3>
 		<nav class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
-			<li><a href="index.html">Planet</a></li>
-			<li><a href="moons.html">Moons</a></li>
-			<li><a href="">Exploration</a></li>
+			<ol>
+				<li><a href="index.html">Planet</a></li>
+				<li><a href="moons.html">Moons</a></li>
+				<li><a href="exploration.html">Exploration</a></li>
+			</ol>
 		</nav>
 	</header>
+
+	<div class="grid">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 headline">
+			<h2>Venus, the second planet in the Solar System.</h2>
+		</div>
+	</div>
+
 
 	<div class="grid">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
 			<img class="image-flex" src="images/venus.jpg" alt="A photo of the planet Venus.">
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
-			<h2>Venus</h2>
+			<h1 class="home-page-h1">Venus</h1>
 			<p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition. However, it has also been shown to be radically different from Earth in other respects.</p>
 		</div>
 	</div>
@@ -53,6 +62,37 @@
 		</div>
 	</div>
 
+	<div class="grid characteristics">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+			<h3>Orbital Characteristics</h3>
+			<dl>
+				<dt>Aphelion:</dt>
+				<dd><data value="108 939 000">108 939 000 km</data></dd>
+				<dt>Perihelion:</dt>
+				<dd><data value="107 477 000">107 477 000 km</data></dd>
+				<dt>Orbital period:</dt>
+				<dd><data value="224.701">224.701 d</data></dd>
+				<dt>Average orbital speed:</dt>
+				<dd><data value="35.02">35.02 km/s</data></dd>
+			</dl>
+		</div>
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+			<h3>Physical Characteristics</h3>
+			<dl>
+				<dt>Mean radius:</dt>
+				<dd><data value="6051.8±1.0">6051.8±1.0 km</dd>
+				<dt>Mass:</dt>
+				<dd><data value="4.8676×10^24">4.8676×10^24 kg</data></dd>
+				<dt>Surface gravity:</dt>
+				<dd><data value="8.87">8.87 m/s^2</data></dd>
+				<dt>Axial tilt:</dt>
+				<dd><data value="177.36">177.36°</data></dd>
+			</dl>
+		</div>
+	</div>
+
+
 	<footer class="grid">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
 			<p>© 2014 Venus Planetary Consortium</p>
@@ -65,6 +105,8 @@
 			</ol>
 		</div>
 	</footer>
+
+
 
 </body>
 </html>
