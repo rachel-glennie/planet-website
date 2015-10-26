@@ -23,6 +23,10 @@ html {
 	display: block;
 }
 
+.padding {
+	padding: 1rem;
+}
+
 body {
 	margin: 0em;
 }
@@ -61,7 +65,7 @@ nav a:hover {
 }
 
 .characteristics {
-background-color: #e2e2e2;
+	background-color: #e2e2e2;
 }
 
 footer {
