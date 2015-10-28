@@ -108,6 +108,21 @@ footer a {
 	padding: 1em;
 }
 
+/* This code is specific to the Moons page */
+
+.moons h3 {
+	text-align: left;
+	padding: 0rem 0rem 1rem 1rem;
+	margin: 0em;
+}
+
+.moons p {
+	padding-left: 1rem;
+}
+
+.moons dt, .moons dd {
+	padding-left: 1rem;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -156,5 +171,12 @@ footer a {
 	}
 
 }
+
+
+@media only screen and (min-width: 60em) {
+
+	.moons h3 {
+		margin-top: 1rem;
+	}
 
 }
