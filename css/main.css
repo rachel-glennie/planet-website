@@ -27,6 +27,10 @@ html {
 	padding: 1rem;
 }
 
+.padding-left {
+	padding-left: 1rem;
+}
+
 body {
 	margin: 0em;
 }
@@ -83,10 +87,6 @@ nav a:hover {
 	margin-bottom: 0em;
 }
 
-.characteristics {
-	background-color: #e2e2e2;
-}
-
 footer {
 	background-color: #cbcbcb;
 }
@@ -106,6 +106,24 @@ footer a {
 	text-decoration: none;
 	color: #0680e5;
 	padding: 1em;
+}
+
+/* This code is specific to the Home page */
+
+.venus-intro h1, p {
+	padding: 0rem 1rem
+}
+
+.venus-facts {
+	background-color: #eee;
+}
+
+.venus-facts img {
+	padding-top: 2em;
+}
+
+.characteristics {
+	background-color: #e2e2e2;
 }
 
 /* This code is specific to the Moons page */
