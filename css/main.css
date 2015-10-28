@@ -91,9 +91,15 @@ footer {
 	background-color: #cbcbcb;
 }
 
+footer p {
+	margin-bottom: 0em;
+	padding: 1em 0em 0em 1em;
+}
+
 footer ol {
 	list-style: none;
-	padding: 0em;
+	padding: 0em 0em 1em 0em;
+	margin-bottom: 0em;
 }
 
 footer a {
@@ -113,6 +119,13 @@ footer a {
 		text-align: center;
 	}
 
+	footer ol {
+		 padding-left: 1em
+	}
+
+	footer a {
+		padding: 0em;
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -124,6 +137,10 @@ footer a {
 	h3{
 		padding: 1em 1em 0em 1em;
 		margin-bottom: 0em;
+	}
+
+	footer ol {
+		padding-top: 1em
 	}
 
 .headline {
