@@ -18,19 +18,6 @@ html {
   box-sizing: inherit;
 }
 
-.image-flex {
-	width: 100%;
-	display: block;
-}
-
-.padding {
-	padding: 1rem;
-}
-
-.padding-left {
-	padding-left: 1rem;
-}
-
 body {
 	margin: 0em;
 }
@@ -98,7 +85,6 @@ footer p {
 
 footer ol {
 	list-style: none;
-	padding: 0em 0em 1em 0em;
 	margin-bottom: 0em;
 }
 
@@ -118,10 +104,6 @@ footer a {
 	background-color: #eee;
 }
 
-.venus-facts img {
-	padding-top: 2em;
-}
-
 .characteristics {
 	background-color: #e2e2e2;
 }
@@ -134,13 +116,11 @@ footer a {
 	margin: 0em;
 }
 
-.moons p {
-	padding-left: 1rem;
+.probes {
+	background-color: #e2e2e2;
 }
 
-.moons dt, .moons dd {
-	padding-left: 1rem;
-}
+
 
 @media only screen and (min-width: 25em) {
 
