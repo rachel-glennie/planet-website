@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Venus</title>
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="handheldfriendly" content="true">
@@ -33,7 +34,11 @@
 
 	<div class="grid venus-intro">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img class="image-flex padding" src="images/venus.jpg" alt="A photo of the planet Venus.">
+			<figure>
+				<div class="embed embed--1by1">
+					<img class="island embed__item" src="images/venus.jpg" alt="A photo of the planet Venus.">
+				</div>
+			</figure>
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
 			<h1 class="home-page-h1">Venus</h1>
@@ -41,33 +46,39 @@
 		</div>
 	</div>
 
-	<div class="grid venus-facts">
+	<div class="grid section pad-t venus-facts">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit l-1-3">
 			<figure>
-				<img class="image-flex" src="images/venus-1.jpg" alt="An orange-y coloured Venus.">
-				<figcaption class="padding">Global radar view of the surface from Magellan radar imaging between 1990 and 1994.</figcaption>
+				<div class="embed embed--4by3">
+					<img class="embed__item" src="images/venus-1.jpg" alt="An orange-y coloured Venus.">
+				</div>
+				<figcaption class="island">Global radar view of the surface from Magellan radar imaging between 1990 and 1994.</figcaption>
 			</figure>
 		</div>
 
 		<div class="unit unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit l-1-3">
 			<figure>
-				<img class="image-flex" src="images/venus-2.jpg" alt="Craters on Venus.">
-				<figcaption class="padding">Impact craters on the surface of Venus.</figcaption>
+				<div class="embed embed--4by3">
+					<img class="embed__item" src="images/venus-2.jpg" alt="Craters on Venus.">
+				</div>
+				<figcaption class="island">Impact craters on the surface of Venus.</figcaption>
 			</figure>
 		</div>
 
 		<div class="unit unit unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit l-1-3">
 			<figure>
-				<img class="image-flex" src="images/venus-3.jpg" alt="A mountain like structure on Venus.">
-				<figcaption class="padding">Maat Mons with a vertical exaggeration of 22.5.</figcaption>
+				<div class="embed embed--4by3">
+					<img class="embed__item" src="images/venus-3.jpg" alt="A mountain like structure on Venus.">
+				</div>
+				<figcaption class="island">Maat Mons with a vertical exaggeration of 22.5.</figcaption>
 			</figure>
 		</div>
 	</div>
 
 	<div class="grid characteristics">
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 padding">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
 			<h4>Orbital Characteristics</h4>
-			<dl>
+			<dl class="list-group list-group--inline">
 				<dt class="milli">Aphelion:</dt>
 				<dd class="mega"><data value="108 939 000">108 939 000 km</data></dd>
 				<dt class="milli">Perihelion:</dt>
@@ -79,9 +90,9 @@
 			</dl>
 		</div>
 
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 padding">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
 			<h4>Physical Characteristics</h4>
-			<dl>
+			<dl class="list-group list-group--inline">
 				<dt class="milli">Mean radius:</dt>
 				<dd class="mega"><data value="6051.8±1.0">6051.8±1.0 km</dd>
 				<dt class="milli">Mass:</dt>
@@ -96,10 +107,10 @@
 
 
 	<footer class="grid">
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 grid-middle padding">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 grid-middle island">
 			<p class="milli">© Venus Planetary Consortium</p>
 		</div>
-		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 grid-middle padding">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 grid-middle island">
 			<ol>
 				<li><a href="index.html">Planet</a></li>
 				<li><a href="moons.html">Moons</a></li>
